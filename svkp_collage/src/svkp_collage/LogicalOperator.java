@@ -7,7 +7,7 @@ public class LogicalOperator {
 		
 		//Logical AND
 		
-		System.out.println("(a>b) && (b<c)" + ((a>b) && (b<c))); //true
+		System.out.println("(a>b) && (b<c)" + ((a>b) && (b<c)));//true
 		
 		//Logical OR
 		
