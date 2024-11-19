@@ -1,16 +1,20 @@
 package svkp_collage;
-
 public class VariableDemo {
-	int value=10;
+	int id=10; //instance variable
 	void print()
 	{
-		String msg="hello";
-	  System.out.println(msg);
+		String msg="hello"; //local variable
+		System.out.println(msg);
 	}
-	static String message="Hello students";  
-	public static void main(String[] args) {
-		
 
-	}
+static String message="Hello Students"; //static variable
+
+public static void main(String[] args) {
+VariableDemo obj=new VariableDemo();
+System.out.println(obj.id);
+obj.print();
+System.out.println(message);
+
+}
 
 }
